@@ -1,0 +1,15 @@
+{
+  "name": "backtrader-rs",
+  "version": "0.2.0",
+  "main": "index.js",
+  "repository": "https://github.com/jgansl/backtrader-rs",
+  "author": "jgansl <jessegansler@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "cargo build --release",
+    "build": "cargo build",
+    "test": "cargo test",
+    "build:run": "npm run build && ./target/debug/backtrader-rs",
+    "dev": "cargo run"
+  }
+}
