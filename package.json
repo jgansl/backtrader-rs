@@ -10,6 +10,10 @@
     "build": "cargo build",
     "test": "cargo test",
     "build:run": "npm run build && ./target/debug/backtrader-rs",
-    "dev": "cargo run"
+    "dev": "cargo run",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }
